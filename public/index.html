@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>茯忆长安 - 茶叶追溯系统</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="images/logo.png" alt="茯忆长安" class="logo-img">
+                <div class="brand-text">
+                    <h1>茯忆长安</h1>
+                    <p class="tagline">溯源好茶 · 品质保证</p>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="#search" class="nav-link">查询追溯</a>
+                <a href="#about" class="nav-link">关于我们</a>
+                <a href="admin.html" class="btn-admin">管理后台</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>茶叶全程追溯系统</h2>
+                    <p>输入追溯码，查询茶叶从种植到杯中的全程信息</p>
+                </div>
+                <div class="search-card" id="search">
+                    <div class="search-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                    </div>
+                    <form id="searchForm" class="search-form">
+                        <input type="text" id="traceCode" placeholder="请输入12位追溯码" required class="search-input">
+                        <button type="submit" class="btn-search">立即查询</button>
+                    </form>
+                    <p class="search-hint">示例追溯码: TEA2024000001</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <h3>追溯流程</h3>
+                    <p>全链路透明化，让每一杯茶都可追溯</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🌱</div>
+                        <h4>种植环节</h4>
+                        <p>记录茶叶种植基地、品种、采摘时间等源头信息</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🍃</div>
+                        <h4>加工环节</h4>
+                        <p>记录茶叶加工工艺、生产批次、质量检测等信息</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📦</div>
+                        <h4>流通环节</h4>
+                        <p>记录茶叶仓储、运输、销售等流通全过程</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">☕</div>
+                        <h4>品鉴环节</h4>
+                        <p>记录茶叶冲泡方法、口感特点、存储建议</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="result-section" id="resultSection" style="display: none;">
+            <div class="container">
+                <div class="result-header">
+                    <h3>查询结果</h3>
+                    <button class="btn-reset" id="resetBtn">重新查询</button>
+                </div>
+                <div id="resultContent"></div>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>关于茯忆长安</h3>
+                        <p>茯忆长安茶叶追溯系统致力于为每一位消费者提供透明、可靠的茶叶信息来源。我们通过先进的物联网技术和区块链存证，确保茶叶从种植、加工到流通的每一个环节都被真实记录。</p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">10000+</span>
+                                <span class="stat-label">追溯码</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">300+</span>
+                                <span class="stat-label">合作茶园</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">8000+</span>
+                                <span class="stat-label">用户查询</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 茯忆长安团队茶叶追溯系统 · 保留所有权利</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

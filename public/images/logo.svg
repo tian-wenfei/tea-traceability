@@ -1,0 +1,28 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="150" cy="150" r="145" fill="none" stroke="#333" stroke-width="2" opacity="0.3"/>
+  <circle cx="150" cy="150" r="135" fill="white"/>
+  
+  <!-- 茶文化文字 -->
+  <text x="150" y="120" font-family="SimSun, serif" font-size="20" fill="#9c27b0" text-anchor="middle">茶文化</text>
+  
+  <!-- 茯忆长安书法 -->
+  <path d="M100 80 Q 150 30, 200 80 Q 250 130, 200 180 Q 150 230, 100 180 Q 50 130, 100 80" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M80 100 Q 150 50, 220 100 Q 270 150, 220 200 Q 150 250, 80 200 Q 30 150, 80 100" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <!-- 波浪 -->
+  <path d="M50 150 Q 75 140, 100 150 Q 125 160, 150 150 Q 175 140, 200 150 Q 225 160, 250 150" fill="none" stroke="#2196f3" stroke-width="2"/>
+  
+  <!-- 茶壶 -->
+  <path d="M220 100 L 260 140 L 220 180 L 180 140 Z" fill="#333"/>
+  <path d="M180 140 L 160 120 L 200 100 L 220 120 Z" fill="#333"/>
+  
+  <!-- 灯笼 -->
+  <circle cx="180" cy="80" r="10" fill="#f44336"/>
+  <path d="M180 70 L 180 50" stroke="#333" stroke-width="1"/>
+  
+  <!-- 装饰点 -->
+  <circle cx="160" cy="70" r="2" fill="#f44336"/>
+  <circle cx="200" cy="70" r="2" fill="#f44336"/>
+  <circle cx="170" cy="60" r="2" fill="#f44336"/>
+  <circle cx="190" cy="60" r="2" fill="#f44336"/>
+</svg>

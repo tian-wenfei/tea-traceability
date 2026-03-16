@@ -1,0 +1,49 @@
+<!--about.wxml-->
+<view class="container">
+  <view class="about-section">
+    <view class="logo">
+      <text class="logo-text">🍃</text>
+    </view>
+    <h3 class="app-name">茶叶追溯系统</h3>
+    <p class="app-desc">茯忆长安茶叶追溯系统</p>
+    
+    <view class="info-section">
+      <h4 class="section-title">系统介绍</h4>
+      <p class="info-text">
+        本系统旨在通过追溯码，为消费者提供茶叶从种植、加工、质检到销售的全流程信息，
+        确保茶叶品质可追溯，提升消费者信任度。
+      </p>
+    </view>
+    
+    <view class="info-section">
+      <h4 class="section-title">功能特点</h4>
+      <ul class="feature-list">
+        <li>• 快速查询茶叶追溯信息</li>
+        <li>• 详细展示加工流程</li>
+        <li>• 质量检测结果查询</li>
+        <li>• 物流信息追踪</li>
+        <li>• 包装信息查询</li>
+      </ul>
+    </view>
+    
+    <view class="info-section">
+      <h4 class="section-title">使用方法</h4>
+      <p class="info-text">
+        1. 在查询页面输入茶叶追溯码
+        2. 点击查询按钮获取详细信息
+        3. 查看茶叶的全流程追溯数据
+      </p>
+    </view>
+    
+    <view class="info-section">
+      <h4 class="section-title">联系方式</h4>
+      <p class="info-text">
+        如有任何问题或建议，欢迎联系我们。
+      </p>
+    </view>
+    
+    <view class="version-info">
+      <text>版本：1.0.0</text>
+    </view>
+  </view>
+</view>

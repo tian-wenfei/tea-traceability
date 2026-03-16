@@ -1,0 +1,121 @@
+<!--result.wxml-->
+<view class="container">
+  <view wx:if="{{loading}}" class="loading">
+    <text>加载中...</text>
+  </view>
+  
+  <view wx:else class="tea-info">
+    <h3>测试茶叶</h3>
+    
+    <!-- 基本信息 -->
+    <view class="info-grid">
+      <view class="info-item">
+        <strong>追溯码</strong>
+        <span>TEA2024000001</span>
+      </view>
+      <view class="info-item">
+        <strong>茶叶类型</strong>
+        <span>绿茶</span>
+      </view>
+      <view class="info-item">
+        <strong>产地</strong>
+        <span>浙江省杭州市</span>
+      </view>
+      <view class="info-item">
+        <strong>生产商</strong>
+        <span>杭州西湖茶叶有限公司</span>
+      </view>
+      <view class="info-item">
+        <strong>生产日期</strong>
+        <span>2024-03-15</span>
+      </view>
+      <view class="info-item">
+        <strong>采摘日期</strong>
+        <span>2024-03-10</span>
+      </view>
+    </view>
+    
+    <!-- 加工步骤 -->
+    <h4 class="section-title">加工步骤</h4>
+    <view>
+      <ul class="steps-list">
+        <li>
+          <strong>采摘</strong>
+          <p>日期: 2024-03-10</p>
+          <p>新鲜茶叶采摘</p>
+        </li>
+        <li>
+          <strong>加工</strong>
+          <p>日期: 2024-03-11</p>
+          <p>茶叶加工处理</p>
+        </li>
+        <li>
+          <strong>烘焙</strong>
+          <p>日期: 2024-03-12</p>
+          <p>茶叶烘焙</p>
+        </li>
+      </ul>
+    </view>
+    
+    <!-- 质量检测 -->
+    <h4 class="section-title">质量检测</h4>
+    <view class="info-item">
+      <strong>检测结果</strong>
+      <span>通过</span>
+    </view>
+    <view class="info-item">
+      <strong>检测日期</strong>
+      <span>2024-03-14</span>
+    </view>
+    <view class="info-item">
+      <strong>检测详情</strong>
+      <span>质量检测合格，符合国家标准</span>
+    </view>
+    
+    <!-- 包装信息 -->
+    <h4 class="section-title">包装信息</h4>
+    <view class="info-grid">
+      <view class="info-item">
+        <strong>包装材料</strong>
+        <span>纸质包装</span>
+      </view>
+      <view class="info-item">
+        <strong>包装日期</strong>
+        <span>2024-03-15</span>
+      </view>
+      <view class="info-item">
+        <strong>包装数量</strong>
+        <span>100</span>
+      </view>
+    </view>
+    
+    <!-- 物流信息 -->
+    <h4 class="section-title">物流信息</h4>
+    <view>
+      <ul class="distribution-list">
+        <li>
+          <strong>杭州西湖茶叶有限公司</strong>
+          <p>日期: 2024-03-15</p>
+          <p>状态: 包装完成</p>
+        </li>
+        <li>
+          <strong>杭州茶叶批发市场</strong>
+          <p>日期: 2024-03-16</p>
+          <p>状态: 运输中</p>
+        </li>
+        <li>
+          <strong>上海茶叶专卖店</strong>
+          <p>日期: 2024-03-18</p>
+          <p>状态: 已上架</p>
+        </li>
+      </ul>
+    </view>
+    
+    <!-- 返回按钮 -->
+    <view class="btn-group">
+      <button class="btn btn-secondary" bindtap="goBack">
+        返回查询
+      </button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,61 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 装饰粒子 -->
+  <view class="particle-1"></view>
+  <view class="particle-2"></view>
+  <view class="particle-3"></view>
+  <view class="particle-4"></view>
+  
+  <!-- 茶园景观区域 -->
+  <view class="tea-garden-section">
+    <image 
+      class="tea-garden-image" 
+      src="../../images/home.png" 
+      mode="aspectFill"
+      binderror="handleImageError"
+    />
+    <view class="tea-garden-overlay">
+      <text class="app-title">茯忆长安茶叶追溯系统</text>
+      <text class="app-subtitle">品质溯源 · 安心饮茶</text>
+    </view>
+  </view>
+  
+  <!-- 输入区域 -->
+  <view class="input-section">
+    <input 
+      class="input" 
+      id="traceCode" 
+      bindinput="bindTraceCodeInput"
+      placeholder="手动输入茶叶上的追溯码"
+      value="{{traceCode}}"
+    />
+    <button 
+      class="btn btn-primary" 
+      bindtap="searchTea"
+      loading="{{loading}}"
+      disabled="{{loading}}"
+    >
+      查询
+    </button>
+  </view>
+  
+  
+  
+  <!-- 扫一扫按钮 -->
+  <view class="scan-button-section">
+    <button 
+      class="scan-button"
+      bindtap="scanCode"
+    >
+      <view class="scan-icon">
+        <text class="scan-icon-text">⊟</text>
+      </view>
+      <text class="scan-button-text">扫一扫</text>
+    </button>
+  </view>
+  
+  <!-- 消息提示 -->
+  <view wx:if="{{message}}" class="message {{messageType}}">
+    {{message}}
+  </view>
+</view>
