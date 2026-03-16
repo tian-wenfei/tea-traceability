@@ -36,9 +36,5 @@ app.get('/', (req, res) => {
 
 // 启动服务器
 app.listen(PORT, () => {
-  const url = process.env.NODE_ENV === 'production' 
-    ? `https://your-app-name.railway.app` 
-    : `http://localhost:${PORT}`;
-  console.log(`服务器运行在 ${url}`);
-  console.log(`环境: ${process.env.NODE_ENV || 'development'}`);
+  console.log(`服务器运行在 http://localhost:${PORT}`);
 });
