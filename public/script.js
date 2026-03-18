@@ -16,7 +16,7 @@ const missingChildrenData = [
         age: "12岁",
         missingDate: "2025年10月16日",
         missingLocation: "甘肃省兰州市榆中县",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=zhengzewen&gender=male&age=child",
+        photo: "https://p2.img.cctvpic.com/apple3g/www/upload/image/20251017/1760673600928053005.jpg",
         description: "身高163cm，体重113斤，短发。失踪时上身穿黑色连帽棉衣，下身穿红色校裤，红色运动鞋，背黑色书包。",
         contact: "110"
     },
@@ -28,7 +28,7 @@ const missingChildrenData = [
         age: "2.5岁",
         missingDate: "2024年8月12日",
         missingLocation: "山西省运城市芮城县",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=dongyirou&gender=female&age=child",
+        photo: "https://p4.img.cctvpic.com/apple3g/www/upload/image/20240813/1723521609943062874.jpg",
         description: "小名十月，走失时穿粉红色衣服，拖鞋。",
         contact: "张寰萌18834355172，董朝放13994899657"
     },
@@ -40,7 +40,7 @@ const missingChildrenData = [
         age: "13岁",
         missingDate: "2024年6月10日",
         missingLocation: "陕西省西安市未央区",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=wangyuze&gender=male&age=child",
+        photo: "https://p3.img.cctvpic.com/apple3g/www/upload/image/20240611/1718100009840063410.jpg",
         description: "身高1.6米左右，离家出走时穿白色短袖，黑色长裤，黑色鞋子带白边。",
         contact: "110"
     },
@@ -52,7 +52,7 @@ const missingChildrenData = [
         age: "11岁",
         missingDate: "2024年",
         missingLocation: "湖南省娄底市娄星区",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=zhouyixing&gender=female&age=child",
+        photo: "https://p4.img.cctvpic.com/apple3g/www/upload/image/20240502/1714644009886054374.jpg",
         description: "身高1.52米，100斤左右，娄底口音，讲普通话，外出时身穿蓝色条纹衫和白色外套，牵了一条白色的小狗。",
         contact: "110"
     },
@@ -64,7 +64,7 @@ const missingChildrenData = [
         age: "12岁",
         missingDate: "2024年1月30日",
         missingLocation: "吉林省松原市前郭县",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=hanguangling&gender=female&age=child",
+        photo: "https://p1.img.cctvpic.com/apple3g/www/upload/image/20240201/1706716809747095005.jpg",
         description: "短发，身高150cm，体重30公斤，吉林省本地口音，衣着红色羽绒服。",
         contact: "110"
     },
@@ -76,7 +76,7 @@ const missingChildrenData = [
         age: "13岁",
         missingDate: "2023年11月10日",
         missingLocation: "河南省许昌市魏都区",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=renyinhe&gender=male&age=child",
+        photo: "https://p4.img.cctvpic.com/apple3g/www/upload/image/20231111/1699632009768076157.jpg",
         description: "短发，身高150cm，体重35公斤，许昌口音。走失时穿白色棉袄上衣，灰色运动裤，白色运动鞋。",
         contact: "15137429272"
     },
@@ -88,7 +88,7 @@ const missingChildrenData = [
         age: "8岁",
         missingDate: "2023年7月1日",
         missingLocation: "海南省海口市龙华区",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=zhaoqihua&gender=male&age=child",
+        photo: "https://p4.img.cctvpic.com/apple3g/www/upload/image/20230702/1688227200642066858.jpg",
         description: "身高135cm，体重33KG。身穿上衣绿色短袖，下衣黑色带黄，粉红色拖鞋。",
         contact: "18389606689，符义德警官66599331"
     },
@@ -100,7 +100,7 @@ const missingChildrenData = [
         age: "13岁",
         missingDate: "2023年6月5日",
         missingLocation: "云南省曲靖市宣威市",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=yule&gender=male&age=child",
+        photo: "https://p4.img.cctvpic.com/apple3g/www/upload/image/20230608/1686153608051067138.jpg",
         description: "失踪时身穿红色校服，黑色裤子。",
         contact: "110"
     },
@@ -112,7 +112,7 @@ const missingChildrenData = [
         age: "12岁",
         missingDate: "2023年3月11日",
         missingLocation: "海南省海口市琼山区",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=wangxinghui&gender=female&age=child",
+        photo: "https://p2.img.cctvpic.com/apple3g/www/upload/image/20230315/1678809606668047617.jpg",
         description: "身高约150厘米，紫黑色齐肩短发。出走时身穿黑色短袖上衣，灰色大头拖鞋。",
         contact: "110"
     },
@@ -124,7 +124,7 @@ const missingChildrenData = [
         age: "12岁",
         missingDate: "2023年3月11日",
         missingLocation: "云南省昆明市西山区",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=hanying&gender=female&age=child",
+        photo: "https://p1.img.cctvpic.com/apple3g/www/upload/image/20230315/1678809609062063783.jpg",
         description: "因学习成绩不理想，经常被父母打骂，已多次离家出走。",
         contact: "110"
     },
@@ -136,7 +136,7 @@ const missingChildrenData = [
         age: "12岁",
         missingDate: "2023年2月4日",
         missingLocation: "云南省大理州云龙县",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=zhaoguohui&gender=male&age=child",
+        photo: "https://p4.img.cctvpic.com/apple3g/www/upload/image/20230207/1675764002152082067.jpg",
         description: "身高130cm左右，云龙县长新乡白族口音、平头短发、上身着蓝色黑袖拉链夹克，下身着黑色裤子，脚穿绿色胶鞋。",
         contact: "110"
     },
@@ -148,7 +148,7 @@ const missingChildrenData = [
         age: "12岁",
         missingDate: "2023年2月4日",
         missingLocation: "云南省大理州云龙县",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=zhaoguoqing&gender=male&age=child",
+        photo: "https://p1.img.cctvpic.com/apple3g/www/upload/image/20230207/1675764002497053939.jpg",
         description: "身高130cm左右，云龙县长新乡白族口音、平头短发、上身着黑白横条纹长袖T恤，下身着黑色裤子，脚穿绿色胶鞋。",
         contact: "110"
     },
@@ -160,7 +160,7 @@ const missingChildrenData = [
         age: "6岁",
         missingDate: "2023年2月2日",
         missingLocation: "海南省临高县",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=zhangzhangcheng&gender=male&age=child",
+        photo: "https://p4.img.cctvpic.com/apple3g/www/upload/image/20230203/1675375206624031211.jpg",
         description: "身高约1米，体重约20公斤。离家时身穿黑、黄相间长袖，黑色长裤，没有穿鞋。",
         contact: "110"
     },
@@ -172,7 +172,7 @@ const missingChildrenData = [
         age: "11岁",
         missingDate: "2023年2月1日",
         missingLocation: "河南省南阳市南召县",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=sunyufeng&gender=male&age=child",
+        photo: "https://p3.img.cctvpic.com/apple3g/www/upload/image/20230202/1675288806663032324.jpg",
         description: "身高140cm，30公斤重，短发，本地口音。走失时上身穿着黑色羽绒服，下穿卡色卫裤。",
         contact: "110"
     },
@@ -184,7 +184,7 @@ const missingChildrenData = [
         age: "2.5岁",
         missingDate: "2023年1月10日",
         missingLocation: "海南省临高县",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=zhengyiqing&gender=male&age=child",
+        photo: "https://p4.img.cctvpic.com/apple3g/www/upload/image/20230113/1673539202252056080.jpg",
         description: "于红华农场红侨分场33队附近走失，走失当日身着黄色外套。",
         contact: "110"
     },
@@ -196,7 +196,7 @@ const missingChildrenData = [
         age: "12岁",
         missingDate: "2022年10月11日",
         missingLocation: "海南省海口市龙华区",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=heruixi&gender=male&age=child",
+        photo: "https://p2.img.cctvpic.com/apple3g/www/upload/image/20221012/1665568810259011117.jpg",
         description: "身高约165cm，55kg，短发。上身穿黑色的短袖T恤，下身穿迷彩裤。",
         contact: "13637645409"
     },
@@ -208,7 +208,7 @@ const missingChildrenData = [
         age: "13岁",
         missingDate: "2022年8月17日",
         missingLocation: "云南省大理州大理市",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=wangmairong&gender=male&age=child",
+        photo: "https://p4.img.cctvpic.com/apple3g/www/upload/image/20220905/1662350405663057121.jpg",
         description: "身高约130厘米，体型偏瘦。离家时上身着红色长袖T恤，下身着深蓝色校裤，白色拖鞋。",
         contact: "110"
     },
@@ -220,7 +220,7 @@ const missingChildrenData = [
         age: "13岁",
         missingDate: "2022年9月1日",
         missingLocation: "云南省昆明市西山区",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=lixingyuan&gender=female&age=child",
+        photo: "https://p4.img.cctvpic.com/apple3g/www/upload/image/20220903/1662199200645061593.jpg",
         description: "身高150CM、中等体型、黑色长发。",
         contact: "110"
     },
@@ -232,7 +232,7 @@ const missingChildrenData = [
         age: "13岁",
         missingDate: "2022年8月21日",
         missingLocation: "云南省保山市隆阳区",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=wuwang&gender=male&age=child",
+        photo: "https://p1.img.cctvpic.com/apple3g/www/upload/image/20220822/1661097606572011472.jpg",
         description: "身高约150厘米，体型偏瘦。走失时身穿一套蓝色球服，一双棕色凉鞋。",
         contact: "110"
     },
@@ -244,7 +244,7 @@ const missingChildrenData = [
         age: "3岁",
         missingDate: "2022年",
         missingLocation: "广西壮族自治区梧州市藤县",
-        photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=lizhuocheng&gender=male&age=child",
+        photo: "https://p1.img.cctvpic.com/apple3g/www/upload/image/20220812/1660276800975063562.jpg",
         description: "大眼睛，左手上戴着一个银手环。",
         contact: "110"
     }
