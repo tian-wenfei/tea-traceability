@@ -262,8 +262,7 @@ class MissingChildrenSlider {
             flipCard: document.getElementById(`${sideId}FlipCard`),
             photo: document.getElementById(`${sideId}ChildPhoto`),
             name: document.getElementById(`${sideId}ChildName`),
-            detail: document.getElementById(`${sideId}ChildDetail`),
-            indicator: document.getElementById(`${sideId}PageIndicator`)
+            detail: document.getElementById(`${sideId}ChildDetail`)
         };
 
         this.init();
@@ -292,7 +291,6 @@ class MissingChildrenSlider {
             失踪日期: ${child.missingDate}<br>
             <small>${child.description.substring(0, 35)}...</small>
         `;
-        this.elements.indicator.textContent = `${this.currentIndex + 1}/${this.total}`;
 
         // 更新背面联系方式
         const backSide = this.elements.flipCard.querySelector('.flip-card-back .help-info');
